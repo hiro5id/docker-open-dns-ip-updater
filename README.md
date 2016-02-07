@@ -1,7 +1,7 @@
 open-dns-ip-updater
 ============
 
-This is a simple Docker container for running the [OpenDNS](http://www.opendns.com/) When using OpenDNS, the purpose of dynamic DNS is to preserve your OpenDNS preferences if your ISP or network operator changes your IP address. The software client keeps your IP up to date with OpenDNS automatically.
+This is a simple Docker container for updating [OpenDNS](http://www.opendns.com/) IP address.  This container packs the [ddclient](http://sourceforge.net/projects/ddclient/) application to accomplish this.  When using OpenDNS, the purpose of dynamic DNS is to preserve your OpenDNS preferences if your ISP or network operator changes your IP address. The software client keeps your IP up to date with OpenDNS automatically.
 
 Usage
 -----
